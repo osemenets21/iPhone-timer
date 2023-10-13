@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    position: relative;
+    width: 1263px;
+}
+
+.img-iphone{
+    width: 816px;
+    margin: 85px auto;
+    display: block;
+    position: relative;
+}
+
+.green-block{
+    position: absolute;
+    z-index: -2;
+    width: 180px;
+    height: 0px;
+    background-color: green;
+    top: 39px;
+    right: 548px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-block{
+    position: absolute;
+    z-index: -3;
+    width: 185px;
+    height: 379px;
+    background-color: black;
+    top: 30px;
+    right: 547px;
+    bottom: 0;
+    border-radius: 25px;
+}
+
+.timer{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 5;
+    position: absolute;
+    top: 166px;
+    right: 583px;
+}
